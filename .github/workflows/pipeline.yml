@@ -6,7 +6,7 @@ on:
     branches: [ "main" ]
 
 env:
-  IMAGE_NAME: ghcr.io/${{ github.repository)_lowercase }}
+  IMAGE_NAME: ghcr.io/${{ github.repository_lowercase }}
 
 jobs:
   build-and-push:
